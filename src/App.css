@@ -146,3 +146,22 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+
+
+@media screen and (max-width:960px){
+  body{
+    background-color: #161a2b
+  }
+  .todo-app{
+    margin: 0;
+    width: 100%
+  }
+  .todo-button{
+    margin: 12px 0;width: 80%;
+    border-radius:4px;
+  }
+  .todo-input{
+    width:80%;
+    border-radius:4px;
+  }
+}
